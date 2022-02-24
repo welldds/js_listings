@@ -1,0 +1,30 @@
+{
+  "..\\components\\Authentication\\AuthModal.js -> react-tabs": {
+    "id": "..\\components\\Authentication\\AuthModal.js -> react-tabs",
+    "files": []
+  },
+  "..\\components\\Common\\Feedback.js -> react-owl-carousel3": {
+    "id": "..\\components\\Common\\Feedback.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  },
+  "..\\components\\Common\\ListingAreaTwo.js -> react-owl-carousel3": {
+    "id": "..\\components\\Common\\ListingAreaTwo.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  },
+  "..\\components\\Listings\\ListingArea.js -> react-owl-carousel3": {
+    "id": "..\\components\\Listings\\ListingArea.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  },
+  "listing\\[id].js -> react-owl-carousel3": {
+    "id": "listing\\[id].js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  }
+}
