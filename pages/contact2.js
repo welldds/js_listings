@@ -1,7 +1,5 @@
 import Navbar from "../components/_App/Navbar";
 import Footer from "../components/_App/Footer";
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = ({ user }) => {
 	return (
@@ -88,8 +86,89 @@ const Contact = ({ user }) => {
 								<img src="/images/contact.png" alt="image" />
 							</div>
 						</div>
-					
-						
+
+						<div className="col-lg-6 col-md-12">
+							<div className="contact-form">
+								<form id="contactForm">
+									<div className="row">
+										<div className="col-lg-12 col-md-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="name"
+													className="form-control"
+													id="name"
+													required
+													data-error="Please enter your name"
+													placeholder="Your name"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-6">
+											<div className="form-group">
+												<input
+													type="email"
+													name="email"
+													className="form-control"
+													id="email"
+													required
+													data-error="Please enter your email"
+													placeholder="Your email address"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<div className="form-group">
+												<input
+													type="text"
+													name="phone_number"
+													className="form-control"
+													id="phone_number"
+													required
+													data-error="Please enter your phone number"
+													placeholder="Your phone number"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<div className="form-group">
+												<textarea
+													name="message"
+													id="message"
+													className="form-control"
+													cols="30"
+													rows="6"
+													required
+													data-error="Please enter your message"
+													placeholder="Write your message..."
+												></textarea>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<button
+												type="submit"
+												className="default-btn"
+											>
+												Send Message
+											</button>
+											<div
+												id="msgSubmit"
+												className="h3 text-center hidden"
+											></div>
+											<div className="clearfix"></div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
