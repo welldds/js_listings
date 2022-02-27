@@ -184,7 +184,7 @@ const SingleListings = ({ user, listing, images }) => {
                 <ul className='amenities-list'>
                   <li>
                     <span>
-                      <i className='bx bx-check'></i> Parking Street
+                      <i className='bx bx-check'></i>{listing.marca}
                     </span>
                   </li>
                   <li>
@@ -1044,6 +1044,7 @@ const SingleListings = ({ user, listing, images }) => {
                           </div>
                         </div>
                       </div>
+
                     </div>
                   </div>
                 </div>

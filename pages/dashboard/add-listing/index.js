@@ -1,4 +1,5 @@
-import { useEffect, useState, useCallback, useContext } from 'react';
+import { useEffect, useState, useCallback, useContext }
+ from 'react';
 import { parseCookies } from 'nookies';
 import { useToasts } from 'react-toast-notifications';
 import { Spinner } from 'react-bootstrap';
@@ -226,7 +227,7 @@ const AddListing = ({ user }) => {
               <div className='col-lg-6 col-md-6'>
                 <div className='form-group'>
                   <label>
-                    <i className='bx bx-duplicate'></i> Type / Category:
+                    <i className='bx bx-duplicate'></i> Type / Category2:
                   </label>
                   <select
                     className='dashbaord-category-select'
@@ -567,22 +568,6 @@ const AddListing = ({ user }) => {
             </div>
 
           </div>
-
-          <div className='add-listings-box padding-field'>   
-          <h3>Pricing Night</h3>
-          <label>
-                <i className='bx bx-purchase-tag'></i> PricingNight:
-              </label>
-              <input
-                type='text'
-                className='form-control'
-                placeholder='$777.00'
-                name='pricingnight'
-                value={createListings.pricing}
-                onChange={handleChange}
-              />
-            </div> 
-
 
           <div className='add-listings-btn'>
             <button type='submit'>

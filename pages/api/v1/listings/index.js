@@ -28,6 +28,7 @@ const createListings = async (req, res) => {
   const {
     listingTitle,
     category,
+    marca,
     keyword,
     city,
     address,
@@ -44,7 +45,6 @@ const createListings = async (req, res) => {
     openingTime,
     closingTime,
     pricing,
-    pricingnight,
   } = req.body;
 
   try {
@@ -59,6 +59,8 @@ const createListings = async (req, res) => {
         .send('The title should be a minimum of Three characters long');
     } else if (!category) {
       return res.status(422).send('Category required');
+    } else if (!marca) {
+      return res.status(422).send('Marca required');
     } else if (!keyword) {
       return res.status(422).send('keyword required');
     } else if (!city) {
@@ -75,14 +77,11 @@ const createListings = async (req, res) => {
       return res.status(422).send('closingTime required');
     } else if (!pricing) {
       return res.status(422).send('pricing required');
-    } else if (!pricingnight) {
-      return res.status(422).send('pricingnight required');
     }
 
     await Listing.create({
       userId,
       listingTitle,
-      category,
       keyword,
       city,
       address,
@@ -99,7 +98,6 @@ const createListings = async (req, res) => {
       openingTime,
       closingTime,
       pricing,
-      pricingnight,
     });
 
     const pendingListings = await Listing.findAll({
@@ -128,7 +126,6 @@ const updateListings = async (req, res) => {
   const {
     id,
     listingTitle,
-    category,
     keyword,
     city,
     address,
@@ -145,7 +142,6 @@ const updateListings = async (req, res) => {
     openingTime,
     closingTime,
     pricing,
-    pricingnight,
   } = req.body;
 
   try {
@@ -162,7 +158,6 @@ const updateListings = async (req, res) => {
     await listing.update({
       id,
       listingTitle,
-      category,
       keyword,
       city,
       address,
@@ -179,7 +174,6 @@ const updateListings = async (req, res) => {
       openingTime,
       closingTime,
       pricing,
-      pricingnight,
     });
 
     if (user.role === 'admin') {

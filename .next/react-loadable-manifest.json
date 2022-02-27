@@ -20,11 +20,5 @@
     "files": [
       "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
     ]
-  },
-  "listing\\[id].js -> react-owl-carousel3": {
-    "id": "listing\\[id].js -> react-owl-carousel3",
-    "files": [
-      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
-    ]
   }
 }

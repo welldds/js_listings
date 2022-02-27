@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/listings": "pages/listings.js",
-  "/api/v1/listings": "pages/api/v1/listings.js",
-  "/listing/[id]": "pages/listing/[id].js",
-  "/api/v1/listings/[id]": "pages/api/v1/listings/[id].js",
-  "/": "pages/index.js"
+  "/api/v1/auth/account": "pages/api/v1/auth/account.js",
+  "/": "pages/index.js",
+  "/api/v1/listings": "pages/api/v1/listings.js"
 }

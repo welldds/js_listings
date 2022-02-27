@@ -39,15 +39,17 @@ export async function getServerSideProps({ query }) {
 	const title = query.title;
 	const location = query.location;
 	const category = query.category;
+	const marca = query.marca;
 
 	const payload = {
 		params: {
 			page,
-			limit: 6,
+			limit: 12,
 			keyword,
 			title,
 			location,
 			category,
+			marca,
 		},
 	};
 	const url = `${baseUrl}/api/v1/listings`;
