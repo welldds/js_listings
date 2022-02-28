@@ -8,8 +8,8 @@ const AppDownload = () => {
           <div className='row align-items-center'>
             <div className='col-lg-5 col-md-12'>
               <div className='app-download-content'>
-                <h2>Download Indice App</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>Descarcă Aplicația!</h2>
+                <p>Disponibila acum pe iOS sau Android</p>
                 <div className='btn-box'>
                   <Link href='/about'>
                     <a className='playstore-btn'>

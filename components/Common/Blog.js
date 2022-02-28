@@ -8,7 +8,7 @@ const Blog = ({ bgColor }) => {
           <div className='row'>
             <div className='col-lg-8 col-md-12'>
               <div className='blog-item-list'>
-                <h2>Indice Recent Activities</h2>
+                <h2>Recent Activities</h2>
 
                 <div className='row'>
                   <div className='col-lg-6 col-md-6'>

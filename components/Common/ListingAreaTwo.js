@@ -58,7 +58,7 @@ const ListingAreaTwo = ({
 				<div className="container">
 					{titleOne ? (
 						<div className="section-title">
-							<h2>Most Visited Listings</h2>
+							<h2>Anunțuri adăugate recent</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit, sed do eiusmod tempor

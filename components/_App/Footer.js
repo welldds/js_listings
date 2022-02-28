@@ -8,51 +8,48 @@ const Footer = ({ bgColor }) => {
           <div className='row'>
             <div className='col-lg-3 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
-                <h3>About</h3>
+                <h3>Despre Noi</h3>
 
                 <ul className='link-list'>
                   <li>
                     <Link href='/about'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> About Indice
+                        <i className='flaticon-left-chevron'></i> Informatii Chirie24
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> Careers
+                        <i className='flaticon-left-chevron'></i> Cariere
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/about'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> Recent News
+                        <i className='flaticon-left-chevron'></i> Noutati
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/testimonial'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> Investor
-                        Relations
+                        <i className='flaticon-left-chevron'></i> Investitori
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/about'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> Content
-                        Guidelines
+                        <i className='flaticon-left-chevron'></i> Ghiduri Continut
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/about'>
                       <a>
-                        <i className='flaticon-left-chevron'></i> Terms of
-                        Service
+                        <i className='flaticon-left-chevron'></i> Politica si Termeni
                       </a>
                     </Link>
                   </li>
@@ -69,7 +66,7 @@ const Footer = ({ bgColor }) => {
 
             <div className='col-lg-3 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
-                <h3>Discover</h3>
+                <h3>Descopera</h3>
 
                 <ul className='link-list'>
                   <li>
@@ -130,7 +127,7 @@ const Footer = ({ bgColor }) => {
 
             <div className='col-lg-3 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
-                <h3>Business With Indice</h3>
+                <h3>Business Chirie24</h3>
 
                 <ul className='link-list'>
                   <li>
@@ -145,7 +142,7 @@ const Footer = ({ bgColor }) => {
                     <Link href='/listings'>
                       <a>
                         <i className='flaticon-left-chevron'></i> Advertise on
-                        Indice
+                        Chirie24
                       </a>
                     </Link>
                   </li>
@@ -194,20 +191,20 @@ const Footer = ({ bgColor }) => {
 
             <div className='col-lg-3 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
-                <h3>Languages</h3>
+                <h3>Limba</h3>
                 <div className='languages-switch'>
                   <select>
-                    <option>English</option>
+                    <option>Engleza</option>
+                    <option>Romana</option>
+                    <option>German</option>
                     <option>Spanish</option>
-                    <option>Russian</option>
-                    <option>Chinese</option>
                   </select>
                 </div>
 
-                <h3>Countries</h3>
+                <h3>Tara</h3>
                 <div className='country-switch'>
                   <select>
-                    <option>United States</option>
+                    <option>Romania</option>
                     <option>Canada</option>
                     <option>France</option>
                     <option>Spain</option>
@@ -219,9 +216,9 @@ const Footer = ({ bgColor }) => {
 
           <div className='copyright-area'>
             <p>
-              Copyright @2021 <span>Indice</span> is Proudly Crafted by{' '}
-              <a href='https://envytheme.com/' target='_blank' rel='noreferrer'>
-                EnvyTheme
+              Copyright @2022 <span>Chirie24</span> Realizat de{' '}
+              <a href='#' target='_blank' rel='noreferrer'>
+                DOOIT24 Web & Creative Solutions.
               </a>
             </p>
           </div>

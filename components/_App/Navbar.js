@@ -123,19 +123,19 @@ const Navbar = ({ userRole }) => {
                 <ul className='navbar-nav'>
                   <li className='nav-item'>
                     <Link href='/' activeClassName='active'>
-                      <a className='dropdown-toggle nav-link'>Home</a>
+                      <a className='dropdown-toggle nav-link'>Acasa</a>
                     </Link>
                   </li>
 
                   <li className='nav-item'>
                     <Link href='/listings' activeClassName='active'>
-                      <a className='dropdown-toggle nav-link'>Listings</a>
+                      <a className='dropdown-toggle nav-link'>Anunturi</a>
                     </Link>
                   </li>
 
                   <li className='nav-item'>
                     <Link href='/about' activeClassName='active'>
-                      <a className='nav-link'>About Us</a>
+                      <a className='nav-link'>Despre Noi</a>
                     </Link>
                   </li>
 
@@ -147,7 +147,7 @@ const Navbar = ({ userRole }) => {
 
                   <li className='nav-item'>
                     <Link href='/testimonial' activeClassName='active'>
-                      <a className='nav-link'>Testimonials</a>
+                      <a className='nav-link'>Testimoniale</a>
                     </Link>
                   </li>
 
@@ -160,7 +160,7 @@ const Navbar = ({ userRole }) => {
                         <ul className='dropdown-menu'>
                           <li className='nav-item'>
                             <Link href='/dashboard' activeClassName='active'>
-                              <a className='nav-link'>Dashboard</a>
+                              <a className='nav-link'>Panou Control</a>
                             </Link>
                           </li>
 
@@ -169,7 +169,7 @@ const Navbar = ({ userRole }) => {
                               href='/dashboard/messages'
                               activeClassName='active'
                             >
-                              <a className='nav-link'>Messages</a>
+                              <a className='nav-link'>Mesaje</a>
                             </Link>
                           </li>
 
@@ -196,7 +196,7 @@ const Navbar = ({ userRole }) => {
                               href='/dashboard/my-listing/active'
                               activeClassName='active'
                             >
-                              <a className='nav-link'>My Listings</a>
+                              <a className='nav-link'>Anunturile Mele</a>
                             </Link>
                           </li>
 
@@ -223,7 +223,7 @@ const Navbar = ({ userRole }) => {
                               href='/dashboard/add-listing'
                               activeClassName='active'
                             >
-                              <a className='nav-link'>Add Listings</a>
+                              <a className='nav-link'>Adauga Anunt</a>
                             </Link>
                           </li>
 
@@ -232,7 +232,7 @@ const Navbar = ({ userRole }) => {
                               href='/dashboard/profile'
                               activeClassName='active'
                             >
-                              <a className='nav-link'>My Profile</a>
+                              <a className='nav-link'>Profilul Meu</a>
                             </Link>
                           </li>
 
@@ -278,7 +278,7 @@ const Navbar = ({ userRole }) => {
                     >
                       {userRole ? (
                         <a className='default-btn button-one'>
-                          <i className='flaticon-more'></i> Add Listing
+                          <i className='flaticon-more'></i> Adauga Anunt
                         </a>
                       ) : (
                         <a
@@ -289,7 +289,7 @@ const Navbar = ({ userRole }) => {
                           }}
                           className='default-btn button-one'
                         >
-                          <i className='flaticon-more'></i> Add Listing
+                          <i className='flaticon-more'></i> Adauga Anunt
                         </a>
                       )}
                     </Link>

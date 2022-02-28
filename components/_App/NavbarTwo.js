@@ -53,19 +53,19 @@ const NavbarTwo = ({ userRole }) => {
               <ul className='navbar-nav'>
                 <li className='nav-item'>
                   <Link href='/' activeClassName='active'>
-                    <a className='nav-link'>Home</a>
+                    <a className='nav-link'>Acasa</a>
                   </Link>
                 </li>
 
                 <li className='nav-item'>
                   <Link href='/listings' activeClassName='active'>
-                    <a className='dropdown-toggle nav-link'>Listings</a>
+                    <a className='dropdown-toggle nav-link'>Anunturi</a>
                   </Link>
                 </li>
 
                 <li className='nav-item'>
                   <Link href='/about' activeClassName='active'>
-                    <a className='nav-link'>About Us</a>
+                    <a className='nav-link'>Despre Noi</a>
                   </Link>
                 </li>
 
@@ -77,7 +77,7 @@ const NavbarTwo = ({ userRole }) => {
 
                 <li className='nav-item'>
                   <Link href='/testimonial' activeClassName='active'>
-                    <a className='nav-link'>Testimonials</a>
+                    <a className='nav-link'>Testimoniale</a>
                   </Link>
                 </li>
 

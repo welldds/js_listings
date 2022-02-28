@@ -34,11 +34,9 @@ const PlacesArea = () => {
       <section className='places-area pt-100 pb-0'>
         <div className='container'>
           <div className='section-title'>
-            <h2>Popular Places for Future Trips</h2>
+            <h2>Cauta pe Orase</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra.
+              Cauta acum anunturi in orasul dorit!
             </p>
           </div>
 

@@ -7,7 +7,7 @@ const DestinationsOne = ({ titleOne,titleTwo,paddingBottom70 }) => {
         <div className='container'>
           {titleOne ? (
             <div className='section-title'>
-              <h2>Popular Places for Future Trips</h2>
+              <h2>Cauta anunturi in orasul dorit!</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis

@@ -10,7 +10,7 @@ const PageBanner = ({ pageTitle, pageName }) => {
             <ul>
               <li>
                 <Link href='/'>
-                  <a>Home</a>
+                  <a>Acasa</a>
                 </Link>
               </li>
               <li>{pageName}</li>

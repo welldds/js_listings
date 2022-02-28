@@ -137,7 +137,7 @@ const ListingArea = () => {
 												</span>
 											</div>
 											<div className="price">
-												Start From <span>$150</span>
+											Start From <span>{' '}{listing.pricing}</span>
 											</div>
 										</div>
 									</div>
@@ -209,7 +209,7 @@ const ListingArea = () => {
 												</span>
 											</div>
 											<div className="price">
-												Start From <span>$200</span>
+											Start From <span>{' '}{listing.pricing}</span>
 											</div>
 										</div>
 									</div>
@@ -278,7 +278,7 @@ const ListingArea = () => {
 												</span>
 											</div>
 											<div className="price">
-												Start From <span>$110</span>
+											Start From <span>{' '}{listing.pricing}</span>
 											</div>
 										</div>
 									</div>
@@ -350,7 +350,7 @@ const ListingArea = () => {
 												</span>
 											</div>
 											<div className="price">
-												Start From <span>$100</span>
+											Start From <span>{' '}{listing.pricing}</span>
 											</div>
 										</div>
 									</div>

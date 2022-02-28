@@ -30,23 +30,23 @@ const Banner = () => {
             <div className='col-lg-8 col-md-12'>
               <div className='banner-content'>
                 <h1 className='banner-two-heading'>
-                  Gaseste acum
+                  Găsește acum
               
                     <Typist>
-                      <span> Chirii </span>
+                      <span> Chirie </span>
                       <Typist.Backspace count={15} delay={200} />
-                      <span> Locuinte </span>
+                      <span> Locuințe </span>
                       <Typist.Backspace count={15} delay={200} />
-                      <span> Chirii </span>
+                      <span> Spații  </span>
                       <Typist.Backspace count={15} delay={200} />
-                      <span> Fitness </span>
+                      <span> Terenuri </span>
                       <Typist.Backspace count={15} delay={200} />
-                      <span> Shopping </span>
+                      <span> Anunțuri </span>
                     </Typist>
                     <span className='wrap'></span>
                  
                 </h1>
-                <p>Expolore top-rated attractions, activities and more...</p>
+                <p>Explora acum anunturile, sau posteaza chiar tu unul!</p>
                 <form onSubmit={submitHandler}>
                   <div className='row m-0 align-items-center'>
                     <div className='col-lg-4 col-md-12 p-0'>
@@ -89,7 +89,7 @@ const Banner = () => {
                           className='banner-form-select-two'
                           onChange={(e) => setCategory(e.target.value)}
                         >
-                          <option>All Categories</option>
+                          <option>Toate Categoriile</option>
                           <option>Restaurants</option>
                           <option>Events</option>
                           <option>Clothing</option>
@@ -107,41 +107,41 @@ const Banner = () => {
 
                     <div className='col-lg-2 col-md-12 p-0'>
                       <div className='submit-btn'>
-                        <button type='submit'>Cauta acum</button>
+                        <button type='submit'>Caută acum</button>
                       </div>
                     </div>
                   </div>
                 </form>
                 <ul className='popular-search-list'>
-                  <li>Popular:</li>
+                  <li>Populare:</li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Restaurants'>
-                      <a>Restaurants</a>
+                      <a>Apartamente</a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Events'>
-                      <a>Events</a>
+                      <a>Spatii Comerciale</a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Clothing'>
-                      <a>Clothing</a>
+                      <a>Case</a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Bank'>
-                      <a>Bank</a>
+                      <a>Terenuri</a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Fitness'>
-                      <a>Fitness</a>
+                      <a>Autoturisme</a>
                     </Link>
                   </li>
                   <li>
                     <Link href='/listings/?title=&location=&category=Bookstore'>
-                      <a>Bookstore</a>
+                      <a>Utilaje</a>
                     </Link>
                   </li>
                 </ul>

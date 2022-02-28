@@ -1,7 +1,5 @@
 import Navbar from "../components/_App/Navbar";
 import Footer from "../components/_App/Footer";
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = ({ user }) => {
 	return (
@@ -23,10 +21,9 @@ const Contact = ({ user }) => {
 								<div className="icon">
 									<i className="bx bx-map"></i>
 								</div>
-								<h3>Our Address</h3>
+								<h3>Adresa</h3>
 								<p>
-									175 5th Ave, New York, NY 10010, United
-									States
+									Bulevardul Bucuresti 50A
 								</p>
 							</div>
 						</div>
@@ -41,15 +38,15 @@ const Contact = ({ user }) => {
 								</div>
 								<h3>Contact</h3>
 								<p>
-									Mobile:{" "}
+									Mobil:{" "}
 									<a href="tel:+44457895789">
-										(+44) - 45789 - 5789
+										+40786766206
 									</a>
 								</p>
 								<p>
 									E-mail:{" "}
-									<a href="mailto:hello@indice.com">
-										hello@indice.com
+									<a href="mailto:office@chirie24.ro">
+										office@chirie24.ro
 									</a>
 								</p>
 							</div>
@@ -63,9 +60,9 @@ const Contact = ({ user }) => {
 								<div className="icon">
 									<i className="bx bx-time-five"></i>
 								</div>
-								<h3>Hours of Operation</h3>
-								<p>Monday - Friday: 09:00 - 20:00</p>
-								<p>Sunday & Saturday: 10:30 - 22:00</p>
+								<h3>Program</h3>
+								<p>Luni - Vineri: 09:00 - 20:00</p>
+								<p>Sam & Dum: 10:30 - 22:00</p>
 							</div>
 						</div>
 					</div>
@@ -75,10 +72,9 @@ const Contact = ({ user }) => {
 			<section className="contact-area pb-100">
 				<div className="container">
 					<div className="section-title">
-						<h2>Ready to Get Started?</h2>
+						<h2>Esti gata sa realizam ceva misto?</h2>
 						<p>
-							Your email address will not be published. Required
-							fields are marked *
+							Datele tale de contact nu vor fi publicate *
 						</p>
 					</div>
 
@@ -88,8 +84,89 @@ const Contact = ({ user }) => {
 								<img src="/images/contact.png" alt="image" />
 							</div>
 						</div>
-					
-						
+
+						<div className="col-lg-6 col-md-12">
+							<div className="contact-form">
+								<form id="contactForm">
+									<div className="row">
+										<div className="col-lg-12 col-md-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="name"
+													className="form-control"
+													id="name"
+													required
+													data-error="Please enter your name"
+													placeholder="Nume si Prenume"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-6">
+											<div className="form-group">
+												<input
+													type="email"
+													name="email"
+													className="form-control"
+													id="email"
+													required
+													data-error="Please enter your email"
+													placeholder="Adresa de email"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<div className="form-group">
+												<input
+													type="text"
+													name="phone_number"
+													className="form-control"
+													id="phone_number"
+													required
+													data-error="Please enter your phone number"
+													placeholder="Telefon"
+												/>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<div className="form-group">
+												<textarea
+													name="message"
+													id="message"
+													className="form-control"
+													cols="30"
+													rows="6"
+													required
+													data-error="Please enter your message"
+													placeholder="Scrie mesajul tau aici..."
+												></textarea>
+												<div className="help-block with-errors"></div>
+											</div>
+										</div>
+
+										<div className="col-lg-12 col-md-12">
+											<button
+												type="submit"
+												className="default-btn"
+											>
+												Trimite Mesaj
+											</button>
+											<div
+												id="msgSubmit"
+												className="h3 text-center hidden"
+											></div>
+											<div className="clearfix"></div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

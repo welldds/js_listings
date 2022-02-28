@@ -48,7 +48,7 @@ const Feedback = ({ title, bgColor, bgImage }) => {
         <div className='container'>
           {title && (
             <div className='section-title'>
-              <h2>User’s Feedback About Us</h2>
+              <h2>Feedback chirie24</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis

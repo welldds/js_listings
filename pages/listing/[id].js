@@ -951,7 +951,7 @@ const SingleListings = ({ user, listing, images }) => {
                             <span className='count'>(45)</span>
                           </div>
                           <div className='price'>
-                            Start From <span>$150</span>
+                          Start From <span>{' '}{listing.pricing}</span>
                           </div>
                         </div>
                       </div>
