@@ -1,16 +1,14 @@
 {
 	"development": {
-		"username": "postgres1",
+		"username": "postgres",
 		"password": "Desperado77$",
 		"database": "indice_dev",
-		"host": "postgresql-71102-0.cloudclusters.net",
-		"port": "18179",
-		"ip_adress": "38.17.53.105",
-
+		"host": "127.0.0.1",
+		"IP_ADRESS": "38.17.53.105",
 		"dialect": "postgres"
 	},
 	"test": {
-		"username": "postgres1",
+		"username": "postgres",
 		"password": "Desperado77$",
 		"database": "database_test",
 		"host": "127.0.0.1",
