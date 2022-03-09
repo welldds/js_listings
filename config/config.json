@@ -1,6 +1,6 @@
 {
 	"development": {
-		"username": "postgre1s",
+		"username": "postgres1",
 		"password": "Desperado77$",
 		"database": "indice_dev",
 		"host": "postgresql-71102-0.cloudclusters.net",
@@ -10,8 +10,8 @@
 		"dialect": "postgres"
 	},
 	"test": {
-		"username": "root",
-		"password": "Desperado!",
+		"username": "postgres1",
+		"password": "Desperado77$",
 		"database": "database_test",
 		"host": "127.0.0.1",
 		"dialect": "postgres"
